@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Generator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="container">
+    <div class="details">
+        <form class="form-details">
+            <label for="content">Data</label>
+            <input id="content" type="text" placeholder="Enter Link or Text to create QR" required>
+            <label for="quality">QR Resolution</label>
+            <input id="quality" type="range" min="50" max="1000" value="250">
+            <label for="format">Format</label>
+            <select id="format">
+                <option value="jpg">JPG</option>
+            </select>
+        </form>
+    </div>
+    <div class="image"></div>
+</body>
+
+</html>
