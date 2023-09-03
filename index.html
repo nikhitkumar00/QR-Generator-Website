@@ -15,6 +15,7 @@
             <input id="content" type="text" placeholder="Enter Link or Text to create QR" required>
             <label for="quality">QR Resolution</label>
             <input id="quality" type="range" min="50" max="1000" value="250">
+            <span id="qualityValue">250</span>
             <label for="format">Format</label>
             <select id="format">
                 <option value="jpg" selected>JPG</option>
@@ -26,7 +27,18 @@
             </select>
         </form>
     </div>
-    <div id="image-container" class="image"></div>
+    <div id="image-container" class="image">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?data=Nikhit Kumar&amp;size=500x500&amp;format=jpg" alt="" title="" />
+    </div>
+
+    <script>
+        const slider = document.getElementById('quality');
+        const sliderValue = document.getElementById('qualityValue');
+
+        slider.addEventListener('input', () => {
+            sliderValue.textContent = slider.value;
+        });
+    </script>
 </body>
 
 </html>
