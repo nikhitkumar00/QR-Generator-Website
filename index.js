@@ -4,7 +4,13 @@ const sliderValue = document.getElementById("qualityValue");
 slider.addEventListener("input", () => {
 	sliderValue.textContent = slider.value;
 });
- 
+
 const generate = () => {
-    console.log("hello")
-} 
+	const qrdata = document.getElementById("content").value;
+	const format = document.getElementById("format").value;
+	const resolution = document.getElementById("quality").value;
+
+	const url = `https://api.qrserver.com/v1/create-qr-code/?data=${qrdata}&size=${resolution}x${resolution}&format=${format}`;
+
+	document.getElementById("image-container").src = url;
+};

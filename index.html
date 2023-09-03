@@ -10,12 +10,14 @@
 
 <body class="container">
     <div class="details">
-        <form class="form-details" onsubmit="generate()">
+        <form id="form" class="form-details" onsubmit="generate()">
             <label for="content">Data</label>
             <input id="content" type="text" placeholder="Enter Link or Text to create QR" required>
+            
             <label for="quality">QR Resolution</label>
             <input id="quality" type="range" min="50" max="1000" value="250">
             <span id="qualityValue">250</span>
+            
             <label for="format">Format</label>
             <select id="format">
                 <option value="jpg" selected>JPG</option>
@@ -28,11 +30,11 @@
             <input type="submit" value="Generate">
         </form>
     </div>
-    <div id="image-container" class="image">
-        <img src="" alt="" title="" />
+    <div class="image">
+        <img id="image-container" src="" alt="QR Comes here" title="" />
     </div>
 
-    <script src="index.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
