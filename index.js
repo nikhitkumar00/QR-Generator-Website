@@ -1,11 +1,13 @@
 const slider = document.getElementById("quality");
 const sliderValue = document.getElementById("qualityValue");
+const btn = document.getElementById("generatebtn");
 
 slider.addEventListener("input", () => {
 	sliderValue.textContent = slider.value;
 });
 
-const generate = () => {
+const generate = (e) => {
+	e.preventDefault();
 	const qrdata = document.getElementById("content").value;
 	const format = document.getElementById("format").value;
 	const resolution = document.getElementById("quality").value;
@@ -14,3 +16,7 @@ const generate = () => {
 
 	document.getElementById("image-container").src = url;
 };
+
+btn.addEventListener("click", (e) => {
+	generate(e);
+});

@@ -10,7 +10,7 @@
 
 <body class="container">
     <div class="details">
-        <form id="form" class="form-details" onsubmit="generate()">
+        <form id="form" class="form-details">
             <label for="content">Data</label>
             <input id="content" type="text" placeholder="Enter Link or Text to create QR" required>
             
@@ -27,11 +27,11 @@
                 <option value="svg">SVG</option>
                 <option value="eps">EPS</option>
             </select>
-            <input type="submit" value="Generate">
+            <input id="generatebtn" type="submit" value="Generate">
         </form>
     </div>
     <div class="image">
-        <img id="image-container" src="" alt="QR Comes here" title="" />
+        <img id="image-container" src="" alt="QR Comes here"/>
     </div>
 
     <script src="./index.js"></script>
