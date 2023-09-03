@@ -10,7 +10,7 @@
 
 <body class="container">
     <div class="details">
-        <form class="form-details">
+        <form class="form-details" onsubmit="generate()">
             <label for="content">Data</label>
             <input id="content" type="text" placeholder="Enter Link or Text to create QR" required>
             <label for="quality">QR Resolution</label>
@@ -25,6 +25,7 @@
                 <option value="svg">SVG</option>
                 <option value="eps">EPS</option>
             </select>
+            <input type="submit" value="Generate">
         </form>
     </div>
     <div id="image-container" class="image">
