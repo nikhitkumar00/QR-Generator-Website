@@ -11,27 +11,32 @@
 <body class="container">
     <div class="details">
         <form id="form" class="form-details">
-            <label for="content">Data</label>
-            <input id="content" type="text" placeholder="Enter Link or Text to create QR" required>
-            
-            <label for="quality">QR Resolution</label>
-            <input id="quality" type="range" min="50" max="1000" value="250">
-            <span id="qualityValue">250</span>
-            
-            <label for="format">Format</label>
-            <select id="format">
-                <option value="jpg" selected>JPG</option>
-                <option value="png">PNG</option>
-                <option value="gif">GIF</option>
-                <option value="jpeg">JPEG</option>
-                <option value="svg">SVG</option>
-                <option value="eps">EPS</option>
-            </select>
+            <div class="data">
+                <label for="content">Data</label>
+                <input id="content" type="text" placeholder="Enter Link or Text to create QR" required>
+            </div>
+            <div class="data">
+                <label for="quality">Resolution</label>
+                <input id="quality" type="range" min="50" max="1000" value="250">
+                <span id="qualityValue">250</span>
+            </div>
+            <div class="data">
+                <label for="format">Format</label>
+                <select id="format">
+                    <option value="jpg" selected>JPG</option>
+                    <option value="png">PNG</option>
+                    <option value="gif">GIF</option>
+                    <option value="svg">SVG</option>
+                </select>
+            </div>
             <input id="generatebtn" type="submit" value="Generate">
         </form>
     </div>
-    <div class="image">
-        <img id="image-container" src="" alt="QR Comes here"/>
+    <div class="cont">
+        <div class="image">
+            <img id="image-container" src="" alt="QR Comes here" />
+        </div>
+        <button>Download</button>
     </div>
 
     <script src="./index.js"></script>
