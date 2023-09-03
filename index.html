@@ -17,11 +17,16 @@
             <input id="quality" type="range" min="50" max="1000" value="250">
             <label for="format">Format</label>
             <select id="format">
-                <option value="jpg">JPG</option>
+                <option value="jpg" selected>JPG</option>
+                <option value="png">PNG</option>
+                <option value="gif">GIF</option>
+                <option value="jpeg">JPEG</option>
+                <option value="svg">SVG</option>
+                <option value="eps">EPS</option>
             </select>
         </form>
     </div>
-    <div class="image"></div>
+    <div id="image-container" class="image"></div>
 </body>
 
 </html>
