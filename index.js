@@ -14,7 +14,9 @@ const generate = (e) => {
 
 	const url = `https://api.qrserver.com/v1/create-qr-code/?data=${qrdata}&size=${resolution}x${resolution}&format=${format}`;
 
-	document.getElementById("image-container").src = url;
+	document.getElementById(
+		"image"
+	).innerHTML = `<img id="image-container" src="${url}"/>`;
 };
 
 btn.addEventListener("click", (e) => {
