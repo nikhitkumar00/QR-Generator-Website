@@ -73,6 +73,10 @@
 	font-family: "Poppins";
 }
 
+#generatebtn:hover {
+	background-color: aliceblue;
+}
+
 @media screen and (max-width: 750px) {
 	* {
 		font-size: 15px;
