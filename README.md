@@ -4,7 +4,7 @@ This web-based QR code generator allows users to create QR codes from text or li
 
 ## How to Use
 
-1. Open the web page using the provided link.
+1. Open the web page [here](https://qrgeneratornikhit.netlify.app/).
 
 2. Fill in the "Data" field with the text or link you want to encode in the QR code.
 
