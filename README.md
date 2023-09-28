@@ -1,10 +1,10 @@
 # QR Code Generator
 
-This is a simple web-based QR code generator that allows users to create QR codes from text or links with customizable resolution and format options. Users can input their data, choose the resolution, and select the output format before generating the QR code.
+This web-based QR code generator allows users to create QR codes from text or links with customizable resolution and format options. You can access the live version [here](https://qrgeneratornikhit.netlify.app/).
 
 ## How to Use
 
-1. Open the `index.html` file in your web browser.
+1. Open the web page using the provided link.
 
 2. Fill in the "Data" field with the text or link you want to encode in the QR code.
 
@@ -14,28 +14,10 @@ This is a simple web-based QR code generator that allows users to create QR code
 
 5. Click the "Generate" button to create the QR code.
 
-6. The generated QR code will be displayed in the "QR Appears here" section.
+6. The generated QR code will be displayed on the page.
 
-## Files
-
-- `index.html`: The main HTML file that contains the structure and form for generating QR codes.
-
-- `index.css`: The CSS file for styling the web page and form.
-
-- `index.js`: The JavaScript file that handles user interactions and QR code generation.
-
-## Dependencies
-
-This project uses the [QR Server API](https://api.qrserver.com/v1/create-qr-code/) to generate QR codes. There are no additional dependencies or libraries required.
-
-## Contributing
-
-If you would like to contribute to this project, please fork the repository and create a pull request with your changes. We welcome contributions and suggestions for improvement.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Enjoy creating QR codes with this simple tool!
 
 ---
 
-Feel free to customize and enhance this QR code generator as needed. Happy coding!
+*This QR code generator is hosted on [Netlify](https://www.netlify.com/). If you have any feedback or suggestions for improvement, please feel free to share them.*
