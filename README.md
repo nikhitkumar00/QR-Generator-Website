@@ -20,4 +20,4 @@ Enjoy creating QR codes with this simple tool!
 
 ---
 
-*This QR code generator is hosted on [Netlify](https://www.netlify.com/). If you have any feedback or suggestions for improvement, please feel free to share them.*
+_This QR code generator is hosted on [Netlify](https://www.netlify.com/). If you have any feedback or suggestions for improvement, please feel free to share them._
