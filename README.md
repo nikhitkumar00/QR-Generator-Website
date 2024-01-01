@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0aede61b-2158-4abc-a4c1-94b7e8dcd9ad/deploy-status)](https://app.netlify.com/sites/qrgeneratornikhit/deploys)
+
 # QR Code Generator
 
 This web-based QR code generator allows users to create QR codes from text or links with customizable resolution and format options. You can access the live version [here](https://qrgeneratornikhit.netlify.app/).
