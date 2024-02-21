@@ -5,11 +5,11 @@ self.addEventListener("install", function (event) {
 				"/",
 				"/index.html",
 				"/index.css",
-				"/assets/favicon.ico",
-				"/assets/icon-192x192.png",
-				"/assets/icon-512x512.png",
+				"/favicon.ico",
+				"/android-chrome-192x192.png",
+				"/android-chrome-512x512.png",
 				"/index.js",
-				"/site.webmanifest",
+				"/manifest.json",
 			]);
 		})
 	);
